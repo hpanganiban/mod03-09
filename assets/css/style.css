@@ -6,6 +6,10 @@
 	font-family: 'Dosis', sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .nav,
 .banner,
 .about,
@@ -257,4 +261,9 @@ h3 {
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 25px;
 	color: #C9573E;
+}
+
+#top {
+	text-decoration: none;
+	float: right;
 }
